@@ -1,7 +1,7 @@
 # cidrcalc
 A simple command line subnet calculator
 
-# Examples / Usage:
+## Examples / Usage:
 ```
 $ ./cidrcalc 22.22.22.20/23
 ip        : 22.22.22.20    00010110.00010110.00010110.00010100
