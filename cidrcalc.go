@@ -29,6 +29,7 @@ func getAddrBinary(ip net.IP) string {
 }
 
 func longestIPLength(addrs ...net.IP) int {
+    // longest means: requires the most characters to print
 	max := 0
 	for _, addr := range addrs {
 		if max < len(addr.String()) {
